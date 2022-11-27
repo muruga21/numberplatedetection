@@ -7,11 +7,7 @@ import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd="C:/Program Files/Tesseract-OCR/tesseract.exe"
 
-cascade= cv2.CascadeClassifier("C:/Users/Admin/Downloads/haarcascade_russian_plate_number.xml")
-
-
-import cv2
-  
+cascade= cv2.CascadeClassifier("C:/Users/Admin/Downloads/haarcascade_russian_plate_number.xml")  
   
 # define a video capture object
 vid = cv2.VideoCapture(0)
